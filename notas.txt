@@ -1,0 +1,10 @@
+Usamos json web token como validador de login, es tipo clave valor  donde la clave es el token y el valor es una serie de caracteres grandes que 
+realiza el sistema. Luego de ingresarlo lo va a guardar en una cookie en el sistema. El encriptador es el algoritmo hs256, nosotros usamos bcryptjs
+Usa la arquitectura modelo vista controlador (mvc) y plantillas ejs (express js, modelo de plantillas simple), cookie parser y dotenv para las variables
+de entorno, express para el server  y mysql para la coneccion con la base de datos
+
+El servidor lo creamos en el app.js donde se llaman todos los odulos
+controllers tiene los controladores
+database es la config de la base de datos
+en env van las variables de entorno
+maquetacion con bootstrap(personalmente lo sacaria) y el dashboard es roba2 de una mqueta   
